@@ -23,6 +23,7 @@ body {
   padding-top:20px;
   padding-bottom:20px;
   width:100%;
+  height: 23px;
   position: fixed;
   top:0;
   box-shadow: 0 1px 8px 0 rgb(0 0 0 / 18%);
@@ -33,16 +34,22 @@ body {
   padding-bottom:auto;
 }
 
-#nav1Last {
-  margin-right: 38%;
-}
+/* #nav1Last {
+  margin-right: 38vw;
+} */
 .nav2 {
   font-size: 20px;
   padding:20px;
+  
+  
 }
 
 #nav21 {
-  background-color:gainsboro
+  background-color:gainsboro;
+  position:fixed;
+  top:0;
+  right:366px
+  
 }
 #nav21:hover {
   background-color:black;
@@ -50,6 +57,9 @@ body {
 }
 #nav22 {
   background-color: #fec01e;
+  position:fixed;
+  top:0;
+  right:270px
 }
 #nav22:hover {
   background-color:black;
@@ -57,6 +67,9 @@ body {
 }
 #nav23 {
   background-color: #f89834;
+  position:fixed;
+  top:0;
+  right:162px
 }
 #nav23:hover {
   background-color:black;
@@ -64,6 +77,9 @@ body {
 }
 #nav24 {
   background-color: #f36c42;
+  position:fixed;
+  top:0;
+  right:13px;
 }
 #nav24:hover {
   background-color:black;
@@ -145,7 +161,7 @@ h1 {
 /* Take action for your world */
 
 #section2 {
-  width: 91%;
+  width: 1290px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -202,7 +218,7 @@ h1 {
 /* Success Stories */
 
 #section3 {
-  width:91%;
+  width:1290px;
   margin-left:auto;
   margin-right:auto;
 
@@ -235,7 +251,7 @@ h1 {
 /* Shop */
 
 #section4 {
-  width:91%;
+  width:1290px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -262,7 +278,7 @@ h1 {
 /* What's happening in your world */
 
 #section5 {
-  width:91%;
+  width:1290px;
   margin-left:auto;
   margin-right:auto;
 }
