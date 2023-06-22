@@ -61,7 +61,7 @@ function App() {
 
       <Footer />
       {/* Link to original webpage */}
-      <p>This is a clone of the WWF landing webpage for practice purpose. All images and information used were sourced from the webpage itself.</p>
+      <p id="linkText"><b>This is a clone of the WWF landing webpage for practice purpose. All images and information used were sourced from the webpage, link below.</b></p>
       <a href="https://www.wwf.org.uk/" id="link">Link to original WWF webpage</a>
     </div>
   );

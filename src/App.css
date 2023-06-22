@@ -30,7 +30,7 @@ body {
 }
 .nav1{
   font-size: 18px;
-  padding: 10px;
+  padding: 15px;
   padding-bottom:auto;
 }
 
@@ -350,4 +350,7 @@ footer {
   text-align:center;
   margin-left:40%;
   font-size: 30px;
+}
+#linkText {
+  text-align: center;
 }
